@@ -21,13 +21,38 @@ header nav{
     padding: 1rem 2rem;
 }
 
-#header-color{
-    color:red;
-}
-.header-two{
-    color:blue;
+nav ul li{
+    list-style: none;
+    display: inline;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 2px;
 }
 
-p1{
-    color: green;
+nav li a{
+    padding: 1rem;
+    margin: 1rem;
+    text-decoration: none;
+    color: white;
+    transition: all 250ms ease-in;
+}
+
+nav li a:hover{
+    background: rgba(255, 255, 255, .3);
+    color: black;
+}
+
+.titles{
+    color: black;
+    text-align: center;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.titles h1{
+    font-family: 'Courier New', 'Courier New', Courier, monospace;
+    FONT-SIZE: 5rem;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 0 black;
 }

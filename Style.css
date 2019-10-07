@@ -9,12 +9,16 @@ header div{
     justify-content: space-between;
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
-    margin: 0;
+    margin: 0 2 rem;
 }
 
 header div i{
     font-size: 2rem;
     margin: 1rem;
+}
+
+header nav{
+    padding: 1rem 2rem;
 }
 
 #header-color{
